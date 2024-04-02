@@ -43,6 +43,7 @@ in {
     neovim
     file
     pciutils
+    helix
 
     # pi dtbo
     dtc
@@ -100,7 +101,7 @@ in {
     enable = true;
 
     displayManager = {
-      lightdm.enable = true;
+      gdm.enable = true;
 
       autoLogin = {
         enable = true;
